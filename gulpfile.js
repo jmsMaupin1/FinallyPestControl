@@ -1,9 +1,12 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
+var gutil = require('gulp-util');
+var plumber = require('gulp-plumber');
 
 gulp.task('sass', ()=>{
 	gulp.src('./src/**/*.scss')
-		.pipe(sass().on('error', sass.logError))
+		.pipe(plumber())
+		.pipe(sass())
 		.pipe(gulp.dest((f)=>{return f.base;}));
 })
 
