@@ -12,7 +12,7 @@ export default class index extends Component {
         		</button>
 
                 <a className="navbar-brand" href="#">
-                    <img src={logo} className="navbar-brand-logo " alt="" />
+                    <img src={logo} className="navbar-brand-logo" alt="Ant Logo" />
                 </a>
     		</div>
 		);
