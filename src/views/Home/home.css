@@ -1,0 +1,44 @@
+.control-icon {
+  position: absolute;
+  top: 50%; }
+
+.testimonials {
+  padding-bottom: 50px;
+  background: url(../../assets/testimonial-background.png) no-repeat 50% 50%;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  display: block;
+  height: auto;
+  min-height: 300px;
+  color: #fff;
+  text-align: center;
+  padding: 30px; }
+
+.carousel-control .right {
+  right: 0;
+  left: auto;
+  background-repeat: repeat-x;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, transparent 100%); }
+
+.carousel-control .left {
+  left: 0;
+  right: auto;
+  background-repeat: repeat-x;
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.0001) 0%, transparent 100%); }
+
+.slide-custom {
+  min-height: 200px;
+  padding: 20px;
+  line-height: 30px; }
+
+.back-light {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  line-height: 30px; }
+  @media all and (max-width: 845px) and (min-width: 100px) {
+    .back-light {
+      display: none; } }

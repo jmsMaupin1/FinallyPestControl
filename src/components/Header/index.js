@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+        import React, { Component } from 'react';
 import Logo from './sub-components/Logo';
 import MenuChoice from './sub-components/MenuChoice';
 import SocialLinksBar from './sub-components/SocialLinksBar'

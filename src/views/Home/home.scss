@@ -4,6 +4,23 @@
            
 }
 
+.testimonials {
+    padding-bottom: 50px;
+    background: url(../../assets/testimonial-background.png) no-repeat 50% 50%;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: auto;
+    min-height: 300px;
+    color: #fff;
+    text-align:center;
+    padding:30px;
+}
+
 .carousel-control {
     .right {
         right: 0;
@@ -20,9 +37,18 @@
     }
 }
 
- /* Caption Back Color */
- .back-light {
+.slide-custom {
+    min-height:200px;
+    padding:20px;
+    line-height:30px;
+}
+
+.back-light {
     background-color:rgba(0, 0, 0, 0.80);
     padding:10px;
     line-height:30px;
+
+    @media all and (max-width: 845px) and (min-width: 100px){
+            display: none;
+        }
 }

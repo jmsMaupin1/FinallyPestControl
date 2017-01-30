@@ -1,12 +1,10 @@
 .header .menu-back {
-  background-color: #34296F; }
+  background-color: #34296F;
+  min-height: 70px; }
 
 .header .navbar-brand-logo {
   max-height: 50px;
   padding-bottom: 10px; }
-
-.header .navbar-header {
-  min-height: 70px; }
 
 .header .navbar-default {
   border-color: rgba(231, 231, 231, 0); }
