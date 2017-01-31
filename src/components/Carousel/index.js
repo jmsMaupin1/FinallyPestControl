@@ -1,27 +1,23 @@
 import React, { Component } from 'react';
-import ant from '../../assets/carousel/carousel-ant.png';
-import banner from '../../assets/carousel/carousel-banner.png';
-import bee from '../../assets/carousel/carousel-bee.png';
-import {BannerSlide} from './sub-components/Slide';
+import './carousel.css';
 
-export default class carousel extends Component {
+export default class Carousel extends Component {
 	render() {
 		return (
-		<div id="main-slider">
+		<div className={this.props.classes}>
+			{this.props.title?<h1>{this.props.title}</h1>:null}
 
-    		<div id="carousel-example" className="carousel slide" data-ride="carousel">
+    		<div id={this.props.target} className="carousel slide" data-ride="carousel">
 
            		<div className="carousel-inner">
-           			<BannerSlide active image={ant} caption="Ants are not your friend, contact us now!"/>
-           			<BannerSlide image={bee} caption="Dont wait to get stung, contact us now!"/>
-           			<BannerSlide image={banner}/>
-	                
+           			{this.props.children}	                
             	</div>
 
 	            <ol className="carousel-indicators">
-	                <li data-target="#carousel-example" data-slide-to="0" className="active"></li>
-	                <li data-target="#carousel-example" data-slide-to="1"></li>
-	                <li data-target="#carousel-example" data-slide-to="2"></li>
+	            	{this.props.children.map((cur , i)=>{
+	            		return (<li key={i} data-target={"#" + this.props.target} data-slide-to={i} className={i===0?"active":""}></li>)
+	            	})}
+	                
 	            </ol>
 	            
     		</div>

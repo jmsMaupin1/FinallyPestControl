@@ -8,6 +8,10 @@
     .navbar-brand-logo {
 		max-height:50px;
 		padding-bottom: 10px;
+
+		@media all and (max-width: 845px) and (min-width: 100px){
+			display: none;
+		}
 	}
 
 	.navbar-default {

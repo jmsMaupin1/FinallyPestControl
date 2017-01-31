@@ -1,4 +1,4 @@
-        import React, { Component } from 'react';
+import React, { Component } from 'react';
 import Logo from './sub-components/Logo';
 import MenuChoice from './sub-components/MenuChoice';
 import SocialLinksBar from './sub-components/SocialLinksBar'
@@ -15,8 +15,6 @@ export default class index extends Component {
                             <ul className="nav navbar-nav navbar-right">
                                 <MenuChoice mainText="HOME PAGE" subText="replace this text"/>
                                 <MenuChoice mainText="ABOUT US" subText="replace this text"/>
-                                <MenuChoice mainText="PORTFOLIO" subText="replace this text"/>
-                                <MenuChoice mainText="EXTRAS" subText="replace this text"/>
                                 <MenuChoice mainText="CONTACT" subText="replace this text"/>
                             </ul>
                         </div>
