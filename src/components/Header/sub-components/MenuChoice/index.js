@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router'
 
 export default class index extends Component {
 	render() {
 		return (
 			<li>
-                <a href="index1.html">{this.props.mainText}<i className="fa fa-folder-open-o"></i>
+                <Link to={this.props.target?this.props.target:"#"}>{this.props.mainText}<i className="fa fa-folder-open-o"></i>
                     <span>{this.props.subText}</span>
-                </a>
+                </Link>
             </li>
 		);
 	}

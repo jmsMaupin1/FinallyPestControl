@@ -6,7 +6,6 @@ import ant from '../../assets/carousel/carousel-ant.png';
 import banner from '../../assets/carousel/carousel-banner.png';
 import bee from '../../assets/carousel/carousel-bee.png';
 import Services from '../../components/Services';
-import Testimonials from '../../components/Testimonials';
 import './home.css'
 
 export default class index extends Component {
