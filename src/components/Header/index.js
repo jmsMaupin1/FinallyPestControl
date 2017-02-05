@@ -14,7 +14,6 @@ export default class index extends Component {
                         <div className="navbar-collapse collapse" >
                             <ul className="nav navbar-nav navbar-right">
                                 <MenuChoice target="/" mainText="HOME PAGE" subText="replace this text"/>
-                                <MenuChoice target="about"  mainText="ABOUT US" subText="replace this text"/>
                                 <MenuChoice target="contact"  mainText="CONTACT" subText="replace this text"/>
                             </ul>
                         </div>

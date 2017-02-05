@@ -7,8 +7,8 @@ export default class index extends Component {
 		return (
 			<div className="services container">
 				<div className="row ">
-                    <ServiceItem icon="fa-clock-o" title="Quick Services" text="Something about very quick services"/>
-                    <ServiceItem icon="fa-bug" title="Terminate Pests" text="With Finally Pest Control LLC. your pests will terminated post haste, with extremem prejudice" />                
+                    <ServiceItem icon="fa-clock-o" title="Quick Services" text="Finally Pest Control Prides itself on fast and effective service"/>
+                    <ServiceItem icon="fa-bug" title="Terminate Pests" text="With Finally Pest Control LLC. your pests will be terminated post haste, with extreme prejudice" />                
                     <ServiceItem icon="fa-users" title="Customer Delight" text="At Finally Pest Control we aim not only to provide customer satisfaction, but customer delight" />                
                 </div>
                 <div className="vid container">

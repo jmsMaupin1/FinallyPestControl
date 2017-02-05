@@ -1,7 +1,17 @@
 import React, { Component } from 'react';
+import $ from 'jquery';
 import './contact.css';
 
 export default class index extends Component {
+
+	handleSubmit() {
+		var name = $('#form-name').val();
+		var email = $('#form-email').val();
+		var body = $('#form-message').val();
+
+		window.location = 'mailto:finallypestcontrol@gmail.com?subject=contact-form&body=' + body;
+	}
+
 	render() {
 		return (
 			<div>
@@ -33,22 +43,22 @@ export default class index extends Component {
 	                        <div className="row">
 	                            <div className="col-lg-6 col-md-6 col-sm-6">
 	                                <div className="form-group">
-	                                    <input type="text" className="form-control" required="required" placeholder="Name" />
+	                                    <input id="form-name" type="text" className="form-control" required="required" placeholder="Name" name="name"/>
 	                                </div>
 	                            </div>
 	                            <div className="col-lg-6 col-md-6 col-sm-6">
 	                                <div className="form-group">
-	                                    <input type="text" className="form-control" required="required" placeholder="Email address" />
+	                                    <input id="form-email" type="text" className="form-control" required="required" placeholder="Email address" name="email"/>
 	                                </div>
 	                            </div>
 	                        </div>
 	                        <div className="row">
 	                            <div className="col-lg-12 col-md-12 col-sm-12">
 	                                <div className="form-group">
-	                                    <textarea name="message" id="message" required="required" className="form-control" rows="4" placeholder="Message"></textarea>
+	                                    <textarea name="message" id="form-message" required="required" className="form-control" rows="4" placeholder="Message"></textarea>
 	                                </div>
 	                                <div className="form-group">
-	                                    <button type="submit" className="btn btn-primary">Submit Request</button>
+	                                    <button onClick={this.handleSubmit} type="button" className="btn btn-primary">Submit Request</button>
 	                                </div>
 	                            </div>
 	                        </div>
