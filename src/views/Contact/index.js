@@ -5,6 +5,7 @@ import './contact.css';
 export default class index extends Component {
 
 	handleSubmit() {
+		//TODO: Add firebase queue to send emails with a backend
 		var name = $('#form-name').val();
 		var email = $('#form-email').val();
 		var body = $('#form-message').val();
@@ -29,7 +30,7 @@ export default class index extends Component {
 	                            <br />
 	                        Call: +1-317-508-7464
 	                            <br />
-	                        e-mail: marcus@finallypestcontrolllc.com
+	                        e-mail: finallypestcontrol@gmail.com
 	                             <br />
 	                    </p>
 	                    <h3>Social Presence</h3>

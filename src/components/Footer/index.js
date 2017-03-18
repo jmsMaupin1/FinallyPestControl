@@ -19,15 +19,17 @@ export default class Footer extends Component {
 		                        time is of the essence and your comfort is our top priority.
 		                    </p>
 		                </div>
-		                <div className="col-lg-4 col-md-4">
-		                    <i className="fa fa-paper-plane-o fa-2x"></i>
-		                    <span>From the blog</span>
-		                    <small>TBA</small>
-		                    <div className="blog-footer-div">
-		                    	<BlogLink image="assets/img/user2.png" articleLink="#" date="Posted 17 June 2014" text="Pellentesque habitant morbi tristique" />
-		                        <BlogLink image="assets/img/user.gif" articleLink="#" date="Posted 27 June 2014" text="Pellentesque habitant morbi tristique" />
-		                    </div>
-		                </div>
+
+		                {/*<div className="col-lg-4 col-md-4">
+		                		                    <i className="fa fa-paper-plane-o fa-2x"></i>
+		                		                    <span>From the blog</span>
+		                		                    <small>TBA</small>
+		                		                    <div className="blog-footer-div">
+		                		                    	<BlogLink image="assets/img/user2.png" articleLink="#" date="Posted 17 June 2014" text="Pellentesque habitant morbi tristique" />
+		                		                        <BlogLink image="assets/img/user.gif" articleLink="#" date="Posted 27 June 2014" text="Pellentesque habitant morbi tristique" />
+		                		                    </div>
+		                		                </div>*/}
+		               	<div className="col-lg-4 col-md-4"></div>
 
 		                <div className="col-lg-4 col-md-4">
 		                    <i className="fa fa-sliders fa-2x"></i>
@@ -35,7 +37,7 @@ export default class Footer extends Component {
 		                    <small>Dont hesitate, get ahold of us today</small>
 		                    Call: 1-317-508-7464
 		                     <br />
-		                    marcus@finallypestcontrol.com
+		                    finallypestcontrol@gmail.com
 		                </div>
 		            </div>
 		        </div>

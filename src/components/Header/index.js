@@ -13,14 +13,14 @@ export default class index extends Component {
                         <Logo />
                         <div className="navbar-collapse collapse" >
                             <ul className="nav navbar-nav navbar-right">
-                                <MenuChoice target="/" mainText="HOME PAGE" subText="replace this text"/>
-                                <MenuChoice target="contact"  mainText="CONTACT" subText="replace this text"/>
+                                <MenuChoice target="/" mainText="HOME PAGE" subText=""/>
+                                <MenuChoice target="contact"  mainText="CONTACT" subText=""/>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <SocialLinksBar 
-                    email="marcus@finallypestcontrol.com"
+                    email="finallypestcontrol@gmail.com"
                     phoneno="+1-317-508-7464"
                     country="USA"
                     facebookURL=""

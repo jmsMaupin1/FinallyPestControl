@@ -21,9 +21,9 @@ export default class index extends Component {
 				<Services/>
 
 				<Carousel title="Testimonials" classes="testimonials" target="carousel-testimonial">
-					<TestimonialSlide active text="This is the best dude" author="James Maupin" />
-					<TestimonialSlide text="This is the best dude" author="James Maupin" />
-					<TestimonialSlide text="This is the best dude" author="James Maupin" />
+					<TestimonialSlide active text="1st visit went great and he did an exceptional job" author="Steve Taylor" />
+					<TestimonialSlide text="Quick, Professional and Effecient" author="Jim Maynor" />
+					<TestimonialSlide text="Hands down best pest control experience I have ever had" author="Emma Abbott" />
 				</Carousel>
 			</div>
 		);
