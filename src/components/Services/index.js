@@ -16,17 +16,7 @@ export default class index extends Component {
                         <div className="col-lg-6 col-md-6">
                             <h2>What Is Special About Us ? </h2>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                            </p>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                At Finally Pest Control, our number 1 priority is YOU the customer. What sets us apart is our knowledge of pest, level of professionalism and ability to effectively provide services. We help our clients to identify their best pest control management plan while providing Eco friendly solutions that are safe within your home.
                             </p>
                             <br />
                             <br />
