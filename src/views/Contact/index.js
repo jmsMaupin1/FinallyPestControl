@@ -10,7 +10,7 @@ export default class index extends Component {
 		var email = $('#form-email').val();
 		var body = $('#form-message').val();
 
-		window.location = 'mailto:finallypestcontrol@gmail.com?subject=contact-form&body=' + body;
+		window.location = 'mailto:beegreenlawncare@gmail.com?subject=contact-form&body=' + body;
 	}
 
 	render() {
@@ -28,9 +28,9 @@ export default class index extends Component {
 	                    <p>
 	                        Indianapolis IN, USA
 	                            <br />
-	                        Call: +1-317-508-7464
+	                        Call: +1-317-660-8794
 	                            <br />
-	                        e-mail: finallypestcontrol@gmail.com
+	                        e-mail: beegreenlawncare@gmail.com
 	                             <br />
 	                    </p>
 	                    <h3>Social Presence</h3>
@@ -38,7 +38,7 @@ export default class index extends Component {
 	                    <a href="#"><i className="fa fa-twitter-square fa-3x color-twitter"></i></a>
 	                </div>
 	                <div className="col-lg-6 col-md-6  col-sm-12">
-	                    <h3>Need Help ? Write Us. </h3>
+	                    <h3>Write Us or Call Today </h3>
 	                    <hr />
 	                    <form>
 	                        <div className="row">
@@ -69,7 +69,7 @@ export default class index extends Component {
 	            </div>
 	        </div>
         	<div>
-				<iframe className="cnt" src="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Indianapolis,+Indiana,+IN,+United+States&aq=0&sll=39.7876465,-86.1211756,11.36&sspn=61.282355,146.513672&ie=UTF8&hq=&hnear=Indianapolis,+Indiana&ll=39.7876465,-86.1211756,11.36&spn=0.01628,0.025663&z=14&iwloc=A&output=embed"></iframe>
+				<iframe className="cnt" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3057.323961662131!2d-86.16010238461735!3d39.978865079418355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8814ac6b2e49172f%3A0x3bfaeba5032d4dc2!2s13295+N+Illinois+St+%23122%2C+Carmel%2C+IN+46032!5e0!3m2!1sen!2sus!4v1512018704877"></iframe>
     		</div>
         </div>
 		);

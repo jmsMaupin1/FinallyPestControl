@@ -7,23 +7,23 @@ export default class index extends Component {
 		return (
 			<div className="services container">
 				<div className="row ">
-                    <ServiceItem icon="fa-clock-o" title="Quick Services" text="Finally Pest Control Prides itself on fast and effective service"/>
-                    <ServiceItem icon="fa-bug" title="Terminate Pests" text="With Finally Pest Control LLC. your pests will be terminated post haste, with extreme prejudice" />                
-                    <ServiceItem icon="fa-users" title="Customer Delight" text="At Finally Pest Control we aim not only to provide customer satisfaction, but customer delight" />                
+                    <ServiceItem icon="fa-clock-o" title="Quality Services" text="If you are searching for lawn fertilizer companies who will be honest about expectations or a pest control company to help make spending time outdoors safer and more comfortable, contact Bee Green today."/>
+                    <ServiceItem icon="fa-pagelines" title="Lawn Care" text="Our service includes a 6 treatment program with a high end slow release fertilizer to ensure correct nutrients are reaching the roots helping the grass grow strong & healthy while also maintaining a beautiful green look." />
+                    <ServiceItem icon="fa-bug" title="Customer Delight" text="Insects can make evenings outside with friends unenjoyable. Our perimeter pest control treatments and mosquito control will and create a barrier around the house to prevent insects from making it inside your house." />
                 </div>
                 <div className="vid container">
                     <div className="row pad-top-botm">
                         <div className="col-lg-6 col-md-6">
-                            <h2>What Is Special About Us ? </h2>
+                            <h2>Why Bee Green Lawn Care?</h2>
                             <p>
-                                At Finally Pest Control, our number 1 priority is YOU the customer. What sets us apart is our knowledge of pest, level of professionalism and ability to effectively provide services. We help our clients to identify their best pest control management plan while providing Eco friendly solutions that are safe within your home.
+                                When you want high quality lawn care in Carmel IN give Bee Green a call. We like to say we are a lawn care company with a conscious because we provide a high level of lawn services while using the latest methods to ensure minimal impact on the environment. From our lawn fertilizer service to our plant health care, we will help you have the beautiful green lawn you deserve.
                             </p>
                             <br />
                             <br />
                         </div>
 
                         <div className="col-lg-6 col-md-6">
-                            <iframe src="https://www.youtube.com/embed/gJZV3qQQq8M" ></iframe>
+                            <iframe src="https://www.youtube.com/embed/GJulQWRbLAY" ></iframe>
                         </div>
                     </div>
                 </div>

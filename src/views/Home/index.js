@@ -13,17 +13,15 @@ export default class index extends Component {
 		return (
 			<div>
 				<Carousel target="carousel-banner">
-					<BannerSlide active image={ant} caption="Ants are not your friend, contact us now!"/>
-           			<BannerSlide image={bee} caption="Dont wait to get stung, contact us now!"/>
-           			<BannerSlide image={banner}/>
+           			<BannerSlide active image={banner} caption="Local Lawn Care - Giving You a Lawn You'll Love."/>
 				</Carousel>
 
 				<Services/>
 
 				<Carousel title="Testimonials" classes="testimonials" target="carousel-testimonial">
-					<TestimonialSlide active text="1st visit went great and he did an exceptional job" author="Steve Taylor" />
-					<TestimonialSlide text="Quick, Professional and Effecient" author="Jim Maynor" />
-					<TestimonialSlide text="Hands down best pest control experience I have ever had" author="Emma Abbott" />
+					<TestimonialSlide active text="We just started and our lawn is already looking 100% better." author="- Google Review" />
+					<TestimonialSlide text="I've never been happier since we switched to Bee Green. They are very professional and reasonable. Now a lot of my friends are using their services as well." author="- Google Review" />
+					<TestimonialSlide text="...I would highly recommend Colwell Lawn & Landscaping for your lawn maintenance and/or landscaping projects. They are a top notch company." author="- Google Review" />
 				</Carousel>
 			</div>
 		);

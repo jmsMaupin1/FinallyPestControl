@@ -15,10 +15,10 @@ export default class index extends Component {
                             <ul className="nav navbar-nav navbar-right">
                                 <MenuChoice target="/" mainText="HOME PAGE" subText="Check out our home page"/>
                                 <MenuChoice target="contact"  mainText="CONTACT" subText="Feel free to contact us"/>
-                                <li><a href="https://app.acuityscheduling.com/schedule.php?owner=13546773">SCHEDULE<i className="fa fa-folder-open-o"></i><span>Non-DCS schedule here</span></a></li>
+
                                 <li>
-                                    <a 
-                                        href="https://finallypestcontrolllc.acuityscheduling.com/schedule.php?appointmentType=3499984" 
+                                    <a
+                                        href="#"
                                         target="_blank"
                                         style={{
                                          background: "#469d6e",
@@ -29,26 +29,22 @@ export default class index extends Component {
                                          borderRadius: "4px",
                                          textDecoration: "none",
                                          display: "inline-block"}}>
-                                        Schedule Appointment
+                                        Get Quote Today
                                     </a>
                                     <br/>
-                                    <span>
-                                    <a href="https://finallypestcontrolllc.acuityscheduling.com/schedule.php?appointmentType=3499984" style={{color: "white"}}>
-                                        DCS Scheduling
-                                    </a>
-                                    </span>
+
                                 </li>
                             </ul>
                         </div>
 
-                    
+
                     </div>
                 </div>
-                <SocialLinksBar 
-                    email="finallypestcontrol@gmail.com"
-                    phoneno="+1-317-508-7464"
+                <SocialLinksBar
+                    email="beegreenlawn@gmail.com"
+                    phoneno="+1-317-660-8794"
                     country="USA"
-                    facebookURL=""
+                    facebookURL="https://www.facebook.com/Beegreenlawn/"
                     linkedinURL=""
                     pinterestURL=""
                 />

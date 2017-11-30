@@ -11,12 +11,14 @@ export default class Footer extends Component {
 		                <div className="col-lg-4 col-md-4 about-ftr">
 		                    <i className="fa fa-building fa-2x"></i>
 		                    <span>A Small Introduction</span>
-		                    <small>Finally Pest Control LLC.</small>
+		                    <small>Bee Green Lawn Care</small>
 		                    <p>
-		                        A family founded company, with family founded ideals. Here at Finally Pest Control
-		                        we take pride in both our work, and our relationship with our loyal customers. 
-		                        If you have a pest, or even suspect you might, dont hesitate to give us a call, 
-		                        time is of the essence and your comfort is our top priority.
+                                At Bee Green, we stand by our service. If you are not happy we will make it right even if it involves making service calls between treatments. If you are not satisfied, these additional service calls will not show up on your bill. Our work is guaranteed. Since 2001, we have been providing lawn service in Carmel IN and would love to show what we can do for you.
+
+                                Bee Green has also received the following honors for our work:
+                                  • Angie’s List Super Service Award 2015
+                                  • Angie’s List Super Service Award 2016
+                                  • Haverstick Lawn of the Month – We have won this accolade a few times on a few different properties
 		                    </p>
 		                </div>
 
@@ -34,10 +36,14 @@ export default class Footer extends Component {
 		                <div className="col-lg-4 col-md-4">
 		                    <i className="fa fa-sliders fa-2x"></i>
 		                    <span>Contact Us!</span>
-		                    <small>Dont hesitate, get ahold of us today</small>
-		                    Call: 1-317-508-7464
-		                     <br />
-		                    finallypestcontrol@gmail.com
+		                    <h3>Call: 1-317-660-8794</h3>
+		                    	<a href="mailto:beegreenlawncare@gmail.com">
+								<h3>beegreenlawncare@gmail.com</h3>
+								</a>
+							<span>Hours: Mon - Fri: 9:00 am - 5:00 pm</span>
+
+							<h2>Get ahold of us today</h2>
+
 		                </div>
 		            </div>
 		        </div>
