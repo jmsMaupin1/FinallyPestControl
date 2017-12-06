@@ -10,7 +10,7 @@ export default class index extends Component {
 		var email = $('#form-email').val();
 		var body = $('#form-message').val();
 
-		window.location = 'mailto:beegreenlawncare@gmail.com?subject=contact-form&body=' + body;
+		window.location = 'mailto:beegreengrass@gmail.com?subject=contact-form&body=' + body;
 	}
 
 	render() {
@@ -30,7 +30,7 @@ export default class index extends Component {
 	                            <br />
 	                        Call: +1-317-660-8794
 	                            <br />
-	                        e-mail: beegreenlawncare@gmail.com
+	                        e-mail: beegreengrass@gmail.com
 	                             <br />
 	                    </p>
 	                    <h3>Social Presence</h3>

@@ -41,7 +41,7 @@ export default class index extends Component {
                     </div>
                 </div>
                 <SocialLinksBar
-                    email="beegreenlawn@gmail.com"
+                    email="beegreengrass@gmail.com"
                     phoneno="+1-317-660-8794"
                     country="USA"
                     facebookURL="https://www.facebook.com/Beegreenlawn/"

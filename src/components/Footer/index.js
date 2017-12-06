@@ -38,7 +38,7 @@ export default class Footer extends Component {
 		                    <span>Contact Us!</span>
 		                    <h3>Call: 1-317-660-8794</h3>
 		                    	<a href="mailto:beegreenlawncare@gmail.com">
-								<h3>beegreenlawncare@gmail.com</h3>
+								<h3>beegreengrass@gmail.com</h3>
 								</a>
 							<span>Hours: Mon - Fri: 9:00 am - 5:00 pm</span>
 
