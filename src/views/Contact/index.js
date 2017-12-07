@@ -37,34 +37,52 @@ export default class index extends Component {
 	                    <a href="#"><i className="fa fa-facebook-square fa-3x color-facebook"></i></a>
 	                    <a href="#"><i className="fa fa-twitter-square fa-3x color-twitter"></i></a>
 	                </div>
-	                <div className="col-lg-6 col-md-6  col-sm-12">
-	                    <h3>Write Us or Call Today </h3>
-	                    <hr />
-	                    <form>
-	                        <div className="row">
-	                            <div className="col-lg-6 col-md-6 col-sm-6">
-	                                <div className="form-group">
-	                                    <input id="form-name" type="text" className="form-control" required="required" placeholder="Name" name="name"/>
-	                                </div>
-	                            </div>
-	                            <div className="col-lg-6 col-md-6 col-sm-6">
-	                                <div className="form-group">
-	                                    <input id="form-email" type="text" className="form-control" required="required" placeholder="Email address" name="email"/>
-	                                </div>
-	                            </div>
-	                        </div>
-	                        <div className="row">
-	                            <div className="col-lg-12 col-md-12 col-sm-12">
-	                                <div className="form-group">
-	                                    <textarea name="message" id="form-message" required="required" className="form-control" rows="4" placeholder="Message"></textarea>
-	                                </div>
-	                                <div className="form-group">
-	                                    <button onClick={this.handleSubmit} type="button" className="btn btn-primary">Submit Request</button>
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </form>
-	                </div>
+                    <div className="col-lg-6 col-md-6  col-sm-12">
+                        <h3>Get A Free Estimate:</h3>
+                        <hr />
+                        <form>
+                            <div className="row">
+                                <div className="col-lg-6 col-md-6 col-sm-6">
+                                    <div className="form-group">
+                                        <input id="form-name" type="text" className="form-control" required="required" placeholder="First Name" name="name"/>
+                                    </div>
+                                    <div className="form-group">
+                                        <input id="form-name" type="text" className="form-control" required="required" placeholder="Last Name" name="name"/>
+                                    </div>
+                                    <div className="form-group">
+                                        <input id="form-name" type="text" className="form-control" required="required" placeholder="Phone Number" name="name"/>
+                                    </div>
+                                    <div className="form-group">
+                                        <input id="form-name" type="text" className="form-control" required="required" placeholder="Email Address" name="name"/>
+                                    </div>
+                                </div>
+                                <div className="col-lg-6 col-md-6 col-sm-6">
+                                    <div className="form-group">
+                                        <input id="form-email" type="text" className="form-control" required="required" placeholder="Address" name="email"/>
+                                    </div>
+                                    <div className="form-group">
+                                        <input id="form-email" type="text" className="form-control" required="required" placeholder="City" name="email"/>
+                                    </div>
+                                    <div className="form-group">
+                                        <input id="form-email" type="text" className="form-control" required="required" placeholder="State" name="email"/>
+                                    </div>
+                                    <div className="form-group">
+                                        <input id="form-email" type="text" className="form-control" required="required" placeholder="Zip Code" name="email"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-lg-12 col-md-12 col-sm-12">
+                                    <div className="form-group">
+                                        <textarea name="message" id="form-message" required="required" className="form-control" rows="4" placeholder="Message"></textarea>
+                                    </div>
+                                    <div className="form-group">
+                                        <button onClick={this.handleSubmit} type="button" className="btn btn-primary">Get Quote Today!</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
 
 	            </div>
 	        </div>

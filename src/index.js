@@ -4,7 +4,9 @@ import ReactDOM from 'react-dom';
 import App from './views/App';
 import Home from './views/Home';
 import Contact from './views/Contact';
-import About from './views/About';
+import Lawn from './views/Lawn';
+import Other from './views/Other';
+import Perimeter from './views/Perimeter';
 import './index.css'
 
 ReactDOM.render(
@@ -12,7 +14,9 @@ ReactDOM.render(
     	<Route path="/" component={App}>
     		<IndexRedirect to="/index.html" />
 			<IndexRoute component={Home}/>
-			<Route path="about" component={About} />
+			<Route path="lawn" component={Lawn} />
+			<Route path="other" component={Other} />
+			<Route path="perimeter" component={Perimeter} />
 			<Route path="contact" component={Contact} />
     	</Route>
     </Router>,

@@ -13,8 +13,11 @@ export default class index extends Component {
                         <Logo />
                         <div className="navbar-collapse collapse" >
                             <ul className="nav navbar-nav navbar-right">
-                                <MenuChoice target="/" mainText="HOME PAGE" subText="Check out our home page"/>
-                                <MenuChoice target="contact"  mainText="CONTACT" subText="Feel free to contact us"/>
+                                <MenuChoice target="/" mainText="HOME PAGE"/>
+                                <MenuChoice target="lawn" mainText="LAWN SERVICES"/>
+                                <MenuChoice target="other" mainText="OTHER SERVICES"/>
+                                <MenuChoice target="perimeter" mainText="PERIMETER PEST"/>
+                                <MenuChoice target="contact"  mainText="CONTACT"/>
 
                                 <li>
                                     <a

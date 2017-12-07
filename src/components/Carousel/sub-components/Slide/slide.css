@@ -1,0 +1,11 @@
+.frontForm input {
+    background-color:rgba(0, 0 ,0 ,0);
+    color: white;
+    border-color: white;
+
+}
+
+.form-group textarea {
+    background-color:rgba(0, 0 ,0 ,0);
+    color: red;
+}
