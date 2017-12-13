@@ -4,8 +4,8 @@ export default class index extends Component {
 	render() {
 		return (
 			<div className="nav-social">
-                <i className="fa fa-globe "></i>E-mail:  {this.props.email}  |  <i className="fa fa-mobile "></i>Call: : {this.props.phoneno}  |  <i className="fa fa-map-marker "></i>Country : {this.props.country} &nbsp;
-                
+                <i className="fa fa-globe "></i>E-mail:  {this.props.email}  |  <i className="fa fa-mobile "></i>Call: : {this.props.phoneno}  |  &nbsp;
+
                 <a href={this.props.facebookURL}>
                   <i className="fa fa-facebook-square "></i>
                 </a>

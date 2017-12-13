@@ -12,11 +12,11 @@ export default class index extends Component {
                 	<span className="icon-bar"></span>
         		</button>
                   <div className="">
-                  <a className="navbar-brand" href="#">
-                        <img src={logo} className="headerImage" alt="Bee Green logo" />
+                  <a className="navbar-left" href="#">
+                        <img src={logo} alt="Bee Green logo" />
                   </a>
                   </div>
-              
+
     		</div>
 		);
 	}

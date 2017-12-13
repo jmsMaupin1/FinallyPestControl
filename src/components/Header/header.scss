@@ -1,8 +1,8 @@
 .header{
 
 	.menu-back {
-    	background-color:#34296F; 
-    	min-height:70px; 
+    	background-color:#34296F;
+    	min-height:70px;
 	}
 
     .navbar-brand-logo {
@@ -30,20 +30,20 @@
 			border-color: #A0761D;
 
 			&:hover,
-			&:focus { 
+			&:focus {
 				background-color: rgba(221, 221, 221, 0);
 			}
 		}
 	}
 
 	.navbar-nav {
-		li > a { 
+		li > a {
 			border-right: 1px solid #3D3577;
 			margin: 5px 0px 5px 0px;
 		}
 	}
 
-	
+
 
 	.nav {
 		li > a > i {
@@ -51,7 +51,7 @@
 					padding-left:5px;
 		}
 
-		li > a > span { 
+		li > a > span {
 					display:table;
 					font-size:13px;
 					color: #C5C5C5;

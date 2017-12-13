@@ -46,7 +46,7 @@ export default class index extends Component {
                 <SocialLinksBar
                     email="beegreengrass@gmail.com"
                     phoneno="+1-317-660-8794"
-                    country="USA"
+                    // country="USA"
                     facebookURL="https://www.facebook.com/Beegreenlawn/"
                     linkedinURL=""
                     pinterestURL=""
