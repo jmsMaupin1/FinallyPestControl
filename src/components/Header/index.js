@@ -14,29 +14,11 @@ export default class index extends Component {
                         <div className="navbar-collapse collapse" >
                             <ul className="nav navbar-nav navbar-right">
                                 <MenuChoice target="/" mainText="HOME PAGE"/>
-                                <MenuChoice target="lawn" mainText="LAWN SERVICES"/>
-                                <MenuChoice target="other" mainText="OTHER SERVICES"/>
-                                <MenuChoice target="perimeter" mainText="PERIMETER PEST"/>
+                                <MenuChoice target="lawn" mainText="LAWN CARE"/>
+                                <MenuChoice target="other" mainText="TREE & SHRUB CARE"/>
+                                <MenuChoice target="perimeter" mainText="MOSQUITO CONTROL"/>
+                                <MenuChoice target="perimeter"  mainText="PERIMETER PEST"/>
                                 <MenuChoice target="contact"  mainText="CONTACT"/>
-
-                                <li>
-                                    <a
-                                        href="#"
-                                        target="_blank"
-                                        style={{
-                                         background: "#469d6e",
-                                         color: '#fff',
-                                        padding: '8px 12px',
-                                         border: '0px',
-                                         boxShadow: '0 -2px 0 rgba(0,0,0,0.15) inset',
-                                         borderRadius: "4px",
-                                         textDecoration: "none",
-                                         display: "inline-block"}}>
-                                        Get Quote Today
-                                    </a>
-                                    <br/>
-
-                                </li>
                             </ul>
                         </div>
 
@@ -45,11 +27,12 @@ export default class index extends Component {
                 </div>
                 <SocialLinksBar
                     email="beegreengrass@gmail.com"
-                    phoneno="+1-317-660-8794"
+                    phone="+1-317-660-8794"
                     // country="USA"
-                    facebookURL="https://www.facebook.com/Beegreenlawn/"
+                    facebookURL="https://www.facebook.com/beegreengrass/"
                     linkedinURL=""
                     pinterestURL=""
+                    youtubeURL=""
                 />
 
             </div>

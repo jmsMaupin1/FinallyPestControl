@@ -5,19 +5,17 @@ export default class index extends Component {
 	render() {
 		return (
 
-        	<div className="logo">
-        		<button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            	<span className="icon-bar"></span>
-                	<span className="icon-bar"></span>
-                	<span className="icon-bar"></span>
-        		</button>
-                  <div className="">
-                  <a className="navbar-left" href="#">
-                        <img src={logo} alt="Bee Green logo" />
-                  </a>
-                  </div>
-
+        <div className="navbar-left">
+          <img src={logo} style={{float: "left"}} className="img-responsive" />
+          <div className="visible-xs visible-sm" style={{float: "left", padding: "25px 0 0 10px", fontSize: "20px"}}><a href="tel:+1-317-660-8794">+1-317-660-8794</a></div>
+          <button style={{marginTop: "20px"}} type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+          </button>
     		</div>
+
 		);
 	}
 }
+
