@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import BlogLink from './sub-components/BlogLink';
 import './footer.css';
 
 export default class Footer extends Component {

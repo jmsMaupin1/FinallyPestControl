@@ -10,7 +10,7 @@ export default class index extends Component {
 		var email = $('#form-email').val();
 		var body = $('#form-message').val();
 
-		window.location = 'mailto:beegreengrass@gmail.com?subject=contact-form&body=' + body;
+        alert("Functionality coming soon, in the mean time feel free to email beegreengrass@gmail.com directly");
 	}
 
 	render() {
