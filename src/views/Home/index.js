@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 import Carousel from '../../components/Carousel';
 import {BannerSlide} from '../../components/Carousel/sub-components/Slide'
 import {TestimonialSlide} from '../../components/Carousel/sub-components/Slide'
-import ant from '../../assets/carousel/carousel-ant.png';
-import banner from '../../assets/carousel/carousel-banner.png';
-import bee from '../../assets/carousel/carousel-bee.png';
+import banner from '../../assets/carousel/carousel-banner.png'
 import Services from '../../components/Services';
 import './home.css'
 
