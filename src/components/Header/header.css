@@ -1,0 +1,64 @@
+
+/*.headerImage {
+  border: 5px solid red;
+}*/
+
+.header .menu-back {
+  /*background-color: #34296F;*/
+  background-color: #ffffff;
+  min-height: 70px; }
+
+.header .navbar-brand-logo {
+  max-height: 50px;
+  padding-bottom: 10px; }
+  @media all and (max-width: 845px) and (min-width: 100px) {
+    .header .navbar-brand-logo {
+      display: none; } }
+
+.header .navbar-default {
+  border-color: rgba(231, 231, 231, 0); }
+  .header .navbar-default .navbar-nav li > a {
+     }
+    .header .navbar-default .navbar-nav li > a:hover {
+      color: #ff6a00; }
+  .header .navbar-default .navbar-toggle {
+    border-color: #A0761D; }
+    .header .navbar-default .navbar-toggle:hover, .header .navbar-default .navbar-toggle:focus {
+      background-color: rgba(221, 221, 221, 0); }
+
+.header .navbar-nav li > a {
+  border-right: 1px solid #3D3577;
+  margin: 5px 0px 5px 0px; }
+
+.header .nav li > a > i {
+  color: #FB9351;
+  padding-left: 5px; }
+
+.header .nav li > a > span {
+  display: table;
+  font-size: 13px;
+  color: #C5C5C5; }
+
+.header .dropdown-menu {
+  min-width: 200px; }
+  .header .dropdown-menu li > a > i {
+    color: #565AB1;
+    font-size: 14px;
+    margin-right: 10px; }
+
+.header .nav-social {
+  /*background-color: #565AB1;*/
+  background-color: #006600;
+  min-height: 40px;
+  padding: 50px 50px 10px 50px;
+  color: #fff;
+  font-size: 17px; }
+  .header .nav-social a,
+  .header .nav-social a:hover {
+    color: #fff;
+    text-decoration: none; }
+  .header .nav-social i {
+    margin-right: 10px; }
+  @media all and (max-width: 845px) and (min-width: 100px) {
+    .header .nav-social {
+      display: none; } }

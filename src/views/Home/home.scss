@@ -1,0 +1,29 @@
+.control-icon {
+   position:absolute;
+   top:50%;
+           
+}
+
+.testimonials {
+    padding-bottom: 50px;
+    background: url(../../assets/testimonial-background.png) no-repeat 50% 50%;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: auto;
+    min-height: 300px;
+    color: #fff;
+    text-shadow: #000 0px 0px 15px;
+    text-align:center;
+    padding:30px;
+}
+
+.slide-custom {
+    min-height:200px;
+    padding:20px;
+    line-height:30px;
+}

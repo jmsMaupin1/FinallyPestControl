@@ -1,0 +1,94 @@
+.header{
+
+	.menu-back {
+    	background-color:#34296F;
+    	min-height:70px;
+	}
+
+    .navbar-brand-logo {
+		max-height:50px;
+		padding-bottom: 10px;
+
+		@media all and (max-width: 845px) and (min-width: 100px){
+			display: none;
+		}
+	}
+
+	.navbar-default {
+		border-color: rgba(231, 231, 231, 0);
+
+		.navbar-nav {
+			li >a {
+					color: #FFF;
+					&:hover {
+						color: #ff6a00;
+				}
+			}
+		}
+
+		.navbar-toggle {
+			border-color: #A0761D;
+
+			&:hover,
+			&:focus {
+				background-color: rgba(221, 221, 221, 0);
+			}
+		}
+	}
+
+	.navbar-nav {
+		li > a {
+			border-right: 1px solid #3D3577;
+			margin: 5px 0px 5px 0px;
+		}
+	}
+
+
+
+	.nav {
+		li > a > i {
+					color:#FB9351;
+					padding-left:5px;
+		}
+
+		li > a > span {
+					display:table;
+					font-size:13px;
+					color: #C5C5C5;
+		}
+	}
+
+	.dropdown-menu {
+		min-width: 200px;
+
+		li > a > i {
+			color:#565AB1;
+		    font-size:14px;
+		    margin-right:10px;
+
+		}
+	}
+
+	.nav-social{
+
+		background-color:#565AB1;
+	    min-height:40px;
+	    padding:20px 50px 10px 50px;
+	    color:#fff;
+	    font-size:17px;
+
+		a,
+		a:hover {
+			color:#fff;
+        	text-decoration:none;
+		}
+
+		i {
+			margin-right:10px;
+		}
+
+		@media all and (max-width: 845px) and (min-width: 100px){
+			display: none;
+		}
+	}
+}
