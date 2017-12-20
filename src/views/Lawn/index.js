@@ -25,21 +25,22 @@ export default class index extends Component {
 
 	                <div className="col-lg-6 col-md-6  col-sm-12">
 	                    <h3>Lawn Care Program</h3>
-						<p>There are 6 treatments spread out throughout the year to help the grass grow and manage weeds and crab grass.</p>
+						{/* <p>There are 6 treatments spread out throughout the year to help the grass grow and manage weeds and crab grass.</p> */}
+                        <p>At Bee Green we recommend our six lawn care treatment program. This professionally scheduled system works together throughout the year to provide effective benefits in faclitating grass growth, weed control and crabgrass management. </p>
 	                    <hr />
 	                    <p>
 
-							•    <strong>Lawn Treatment #1</strong> – In the early-spring we use a specially formulated, slow release granular fertilizer blended with pre-emergent weed control. The goalis to help the grass come out of its winter dormancy and promote new growth. This treatment also targets crabgrass and other weed seed germination to minimize the onslaught of weeds. <br />
+							•    <strong>Lawn Treatment #1</strong> – In the early-spring we use a specially formulated, slow release granular fertilizer blended with pre-emergent weed control. The goal is to help the grass come out of its winter dormancy and promote new growth. This treatment also targets crabgrass and other weed seed germination to minimize the onslaught of weeds. <br /><br />
 
-							•    <strong>Lawn Treatment #2</strong> – In the late spring, we will use a specially formulated granular fertilizer to promote and maintain the growth and color of the turf. Included is weed control which targets broadleaf weeds and weeds known to thrive in the spring such as Dandelion, Black Medic, Plantain and others. At this time we begin monitoring the lawn for diseases and pests. <br />
+							•    <strong>Lawn Treatment #2</strong> – In the late spring, we will use a specially formulated granular fertilizer to promote and maintain the growth and color of the turf. Included is weed control which targets broadleaf weeds and weeds known to thrive in the spring such as Dandelion, Black Medic, Plantain and others. We will actively begin monitoring the lawn for diseases and pests. <br /><br />
 
-							•    L<strong>Lawn Treatment #3</strong> – This application takes place in the summer and uses our granular fertilizer combined with broadleaf weed control. We will keep a sharp eye on your lawn and inspect for grubs, sod web worms and chinch bugs which could reduce the grass’s integrity, turn it brown and even kill it. Because lawn disease is active in the summer we will monitor and recommend corrective measures, if necessary. <br />
+							•    <strong>Lawn Treatment #3</strong> – This application takes place in the summer and uses our granular fertilizer combined with broadleaf weed control. We will keep a sharp eye on your lawn and inspect for grubs, sod web worms and chinch bugs which could reduce the grass’s integrity, turn it brown and even kill it. Because lawn disease is active in the summer we will monitor and recommend corrective measures, if necessary. <br /><br />
 
-							•    <strong>Lawn Treatment #4</strong> - This late-summer application uses granular, slow release fertilizer along with treating broadleaf weeds where needed. Monitoring continues for grubs and sod web worms as they are most prevalent this time of year. <br />
+							•    <strong>Lawn Treatment #4</strong> - This late-summer application uses granular, slow release fertilizer along with treating broadleaf weeds where needed. Monitoring continues for grubs and sod web worms as they are most prevalent this time of year. <br /><br />
 
-							•    <strong>Lawn Treatment #5</strong> – In the fall, we use a specially formulated granular fertilization for preparing turf for the fall season. Cool season weeds begin to reappear so we will treat as needed. At this time, grubs and sod web worm damage is more visible. If we see this, we would recommend a special treatment to rid your lawn of these invasive insects. <br />
+							•    <strong>Lawn Treatment #5</strong> – In the fall, we use a specially formulated granular fertilization for preparing turf for the fall season. Cool season weeds may begin to resurface again. Treatment for these weeds are included as needed. Grub and sod web worm damage is typically more prevalent during this period. Special treatment recommendations to elimanate your lawn of these invasive insects will be presented. <br /><br />
 
-							•    <strong>Lawn Treatment #6</strong> – This final treatment of the year takes place in the late fall and includes specially formulated granular fertilization. The goal is to promote root growth and to help prepare the turf for its winter dormancy. Any persistent late season broadleaf weeds will also be treated.
+							•    <strong>Lawn Treatment #6</strong> – This final treatment of the year takes place in the late fall and includes specially formulated granular fertilization. The goal is to promote root growth and to help prepare the turf for its winter dormancy. Any persistent late season broadleaf weeds will also be treated. In addition to this lawn care treatment, adding aeration and/or overseeding around this time are significant approchaes to preserving your lawn for the harsh winter weather, making way for a greener, healthier lawn in the Spring.
 	                    </p> <br />
 	                </div>
 	                <div className="col-lg-6 col-md-6  col-sm-12">
