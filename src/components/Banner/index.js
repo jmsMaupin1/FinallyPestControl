@@ -4,7 +4,8 @@ import Carousel from '../../components/Carousel'
 import {TestimonialSlide} from '../../components/Carousel/sub-components/Slide'
 
 export default class Banner extends Component {
-	render() {
+
+	renderDesktop() {
 		return (
 			<div style={{width:"100%"}}>
 
@@ -24,6 +25,18 @@ export default class Banner extends Component {
 				<img src={this.props.image} alt="bee green banner" className="img-responsive" style={{float: "top"}}/>
 			</div>
 		);
+	}
+
+	renderMobile() {
+		return (
+			<Contact />
+		)
+	}
+
+	render() {
+		var windowSize = document.documentElement.clientWidth;
+
+		return windowSize <= 1199 ? this.renderMobile() : this.renderDesktop();
 	}
 }
 
