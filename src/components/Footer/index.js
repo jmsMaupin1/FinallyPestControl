@@ -7,12 +7,12 @@ export default class Footer extends Component {
 			<div className="footer">
 				<div className="container">
 		            <div className="row">
-		                <div className="col-lg-4 col-md-4 about-ftr">
+		                <div className="col-lg-8 col-md-8 about-ftr">
 		                    <i className="fa fa-building fa-2x"></i>
 		                    <span>A Small Introduction</span>
 		                    <small>Bee Green Lawn Care</small>
 		                    <p>
-                                At Bee Green, we stand by our service. If you are not happy we will make it right even if it involves making service calls between treatments. If you are not satisfied, these additional service calls will not show up on your bill. Our work is guaranteed. Since 2001, we have been providing lawn service in Carmel IN and would love to show what we can do for you.
+                                At Bee Green, we stand by our service. Customer service is our top priority. It is something we take very serious because if our customers are not satisfied, we are not satisfied. Our work is guaranteed. We provide FREE service calls between treatments for any reason. Our professional technicians are trained to detect and address any concerns. Since 2001, we have been providing lawn service in Carmel IN and would love to show what we can do for you.
 
                                 Bee Green has also received the following honors for our work:
                                   • Angie’s List Super Service Award 2015
