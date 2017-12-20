@@ -9,13 +9,13 @@ export default class index extends Component {
                 <a href={this.props.facebookURL}>
                   <i className="fa fa-facebook-square "></i>
                 </a>
-                <a href={this.props.linkedinURL} style={{display: this.props.linkedinURL == "" ? "none" : "inline"}}>
+                <a href={this.props.linkedinURL} style={{display: this.props.linkedinURL  === "" ? "none" : "inline"}}>
                     <i className="fa fa-linkedin-square "></i>
                 </a>
-                <a href={this.props.pinterestURL} style={{display: this.props.linkedinURL == "" ? "none" : "inline"}}>
+                <a href={this.props.pinterestURL} style={{display: this.props.linkedinURL === "" ? "none" : "inline"}}>
                     <i className="fa fa-pinterest-square "></i>
                 </a>
-                <a href={this.props.pinterestURL} style={{display: this.props.youtubeURL == "" ? "none" : "inline"}}>
+                <a href={this.props.pinterestURL} style={{display: this.props.youtubeURL  === "" ? "none" : "inline"}}>
                     <i className="fa fa-youtube-square "></i>
                 </a>
             </div>

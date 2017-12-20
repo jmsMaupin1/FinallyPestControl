@@ -1,17 +1,10 @@
 import React, { Component } from 'react';
 import "./perimeter.css";
-import $ from 'jquery';
 
 
 export default class index extends Component {
 
 	handleSubmit() {
-		//TODO: Add firebase queue to send emails with a backend
-		var name = $('#form-name').val();
-		var email = $('#form-email').val();
-		var body = $('#form-message').val();
-
-		window.location = 'mailto:beegreengrass@gmail.com?subject=contact-form&body=' + body;
 	}
 
 	render() {
