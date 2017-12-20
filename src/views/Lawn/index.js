@@ -35,6 +35,12 @@ export default class index extends Component {
 
 							•    <strong>Lawn Treatment #6</strong> – This final treatment of the year takes place in the late fall and includes specially formulated granular fertilization. The goal is to promote root growth and to help prepare the turf for its winter dormancy. Any persistent late season broadleaf weeds will also be treated. In addition to this lawn care treatment, adding aeration and/or overseeding around this time are significant approchaes to preserving your lawn for the harsh winter weather, making way for a greener, healthier lawn in the Spring.
 	                    </p> <br />
+						<h3>Additional Lawn Services</h3>
+						<p><strong>All Natural Mole Treatment:</strong> Treatments are a specialy formulated, non-toxi, deterrent to repel moles out of your lawn. This is done without killing the moles versus putting a poisonous killing agent in your yard that could potentially harm kids and other animals as well. First 2 treatments 14 days apart. Then every 30 days thereafter.</p>
+						<p><strong>Bed Pre-Emergent:</strong> These applications can prevent the germination of weed seeds in the open areas of the landscape beds. 4 treatments starting in early Spring. These will not control established weeds. </p>
+						<p><strong>Organic Lawn Care Treatments:</strong> Our organic fertilizer is food grade, and safe for pets, kids and the environment. The organic fertilizer we use produces no phosphates and little nitrogen so water supplies and the earth around the property are always as safe as possible. </p>
+						<p><strong>Aeration:</strong> We highly recommend having your lawn aerated once a year to keep your grass healthy and allow more nutrients to reach the roots in order to help them extend and thrive. When you combine our lawn aeration service with overseeding, you are sure to have a full, thick and consistent looking lawn that is free of bare spots. </p>
+						<p><strong>Overseeding:</strong> We use a blend of Bluegrass and Perennial Ryegrass seed. This seed establishes quickly, is high yielding and offers a long growing season. </p><br />
 	                </div>
 	                <div className="col-lg-6 col-md-6  col-sm-12">
 	                    <h3>Get A Free Estimate:</h3>
