@@ -11,7 +11,7 @@ export default class index extends Component {
 		return (
 			<div>
 				<div className="top-subhead">
-		        	<h1 className="text-center">OTHER SERVICES</h1>
+		        	<h1 className="text-center">TREE & SHRUB CARE</h1>
 		    	</div>
 				<div className="container">
 	            	<div className="row">
@@ -28,9 +28,15 @@ export default class index extends Component {
 
 							• <strong>Treatment #6</strong> – The final treatment of the year occurs in the late fall and is a deep root feeding to promote root development and improve soil condition. Our fertilizers also include beneficial Mycorrhizae fungus, seaweed extract, humates, and other important organic materials to encourage tree growth. This deep root feeding and direct injection into the root zone helps the tree store nutrients through winter for next growing season.
 	                    </p> <br />
+						<p><strong>Spring Fungicide Application:</strong> Targeted at Apple Scab on Crabapples or Rust on Hawthornes. Other diseases can also be addressed.</p>
+						<p><strong>Emerald Ash Borer treatments:</strong> Emerald Ash Borer is an introduced pest from Asia that left untreated, will kill infected Ash trees native to Indiana. Specialized, selective treatments are available for the most effective control.</p>
+						<p><strong>Specialized Micro-nutrient treatments:</strong> Treatments are sometimes needed for Chlorotic Oaks, Birches and other plants. </p>
+						<p><strong>Specialized Direct Trunk Injections:</strong> Direct injection of material into the trunk of the tree is sometimes needed to avoid drifting into lakes and other sensitive areas or to control specific pests and nutrient deficiencies.</p>
+						<p><strong>Miticides:</strong> These applications are sometimes needed to control severe Spider Mite problems on select plants. </p>
+						<br />
                         <h3>Tree Diseases and Insects</h3>
 						<p>
-							There are many kind of insects that can harm the trees. Our tree and shrub care program will help manage pests such as:<br />
+							There are many types insects that can harm the trees. Our tree and shrub care program will help manage pests such as:<br />
 							• Japanese beetles<br />
 							• Lace bugs<br />
 							• Bagworms<br />
@@ -45,6 +51,7 @@ export default class index extends Component {
 							• Hawthornes<br />
 							• Crabapple trees<br />
 						</p><br />
+
 	                </div>
 	                <div className="col-lg-6 col-md-6  col-sm-12">
 	                    <h3>Get A Free Estimate:</h3>
