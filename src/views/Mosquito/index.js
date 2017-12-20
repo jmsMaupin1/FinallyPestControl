@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "./perimeter.css";
+import "./mosquito.css";
 
 
 export default class index extends Component {
@@ -11,28 +11,25 @@ export default class index extends Component {
 		return (
 			<div>
 				<div className="top-subhead">
-		        	<h1 className="text-center">PERIMETER PEST CONTROL</h1>
+		        	<h1 className="text-center">MOSQUITO CONTROL</h1>
 		    	</div>
 				<div className="container">
 	            	<div className="row">
 
 	                <div className="col-lg-6 col-md-6  col-sm-12">
-						<h3>Perimeter Pest Control Program</h3>
+						<h3>Mosquito Control Program</h3>
 	                    <hr />
-						<p>Our perimeter pest control program generally involves 4-5 treatments around the outside of the home in order to create a solid barrier. By spraying throughout the year, we consistently ensure that insects do not come into your home.
-							We will spray the base around the home as well as decks and patios to provide a proper defense against the pesky pests that are trying to enter your home. We also spray the entryways around the doors and under the eaves. Regardless of the insects or where they are located, we have the means of helping you enjoy a more comfortable life with minimal insects. <br />
-
-							Some of the insects we target include:<br />
-							• Ants<br />
-							• Spiders<br />
-							• Wasps<br />
-							• Cockroaches<br />
+						<p>We also can help minimize the level of mosquitoes on your property. Along with the itchy red spots that these annoying little insects can cause, they also are known to carry viruses such as the Zika Virus and West Nile Virus. Treatment includes a thorough application and spray to all prime points of the perimeter and yard including trees, bushes and shrubs; most treatments last 21 days. Keep your friends, family and pets safer and more comfortable when you use Bee Green for all of your pest control services. <br />
 	                    </p>
 					   <h3>Additional Pest Control</h3>
-					   <p><strong>Mosquito Control Program:</strong> We also can help minimize the level of mosquitoes on your property. Along with the itchy red spots that these annoying little insects can cause, they also are known to carry viruses such as the Zika Virus and West Nile Virus. Treatment includes a thorough application and spray to all prime points of the perimeter and yard including trees, bushes and shrubs; most treatments last 21 days. Keep your friends, family and pets safer and more comfortable when you use Bee Green for all of your pest control services.
+					   <p><strong>Perimeter Pest Control Program:</strong> Our perimeter pest control program generally involves 4-5 treatments around the outside of the home in order to create a solid barrier. By spraying throughout the year, we consistently ensure that insects do not come into your home. We will spray the base around the home as well as decks and patios to provide a proper defense against the pesky pests that are trying to enter your home. We also spray the entryways around the doors and under the eaves. Regardless of the insects or where they are located, we have the means of helping you enjoy a more comfortable life with minimal insects.<br />
+					   Some of the insects we target include: <br />
+					   • Ants<br />
+					   • Spiders<br />
+					   • Wasps<br />
+					   • Cockroaches<br />
 					   </p>
-					   <p><strong>Flea and Tick Program:</strong> Bee Green has a comprehensive flea and tick program as well to keep your pets safe when roaming around outside. Treatments target flea and ticks around the yard. Ticks must carry many diseases that are harmful to people. These treatments are another preventative measure that can be taken to keep your family, friends and pets safer.
-					   </p> <br />
+					   <p><strong>Flea and Tick Program:</strong> Bee Green has a comprehensive flea and tick program as well to keep your pets safe when roaming around outside. Treatments target flea and ticks around the yard. Ticks must carry many diseases that are harmful to people. These treatments are another preventative measure that can be taken to keep your family, friends and pets safer.</p><br />
 	                </div>
                     <div className="col-lg-6 col-md-6  col-sm-12">
 	                    <h3>Get A Free Estimate:</h3>
