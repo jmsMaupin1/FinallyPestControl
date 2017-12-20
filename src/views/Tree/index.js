@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "./perimeter.css";
+import "./other.css";
 
 
 export default class index extends Component {
@@ -11,30 +11,49 @@ export default class index extends Component {
 		return (
 			<div>
 				<div className="top-subhead">
-		        	<h1 className="text-center">PERIMETER PEST CONTROL</h1>
+		        	<h1 className="text-center">TREE & SHRUB CARE</h1>
 		    	</div>
 				<div className="container">
 	            	<div className="row">
 
 	                <div className="col-lg-6 col-md-6  col-sm-12">
-						<h3>Perimeter Pest Control Program</h3>
+	                    <h3>Tree and Shrub Care</h3>
+						<p>We have a six application program to help your trees grow and thrive during the warmer months of the year and stay healthy during the cold winter months.</p>
 	                    <hr />
-						<p>Our perimeter pest control program generally involves 4-5 treatments around the outside of the home in order to create a solid barrier. By spraying throughout the year, we consistently ensure that insects do not come into your home.
-							We will spray the base around the home as well as decks and patios to provide a proper defense against the pesky pests that are trying to enter your home. We also spray the entryways around the doors and under the eaves. Regardless of the insects or where they are located, we have the means of helping you enjoy a more comfortable life with minimal insects. <br />
+						<p>
 
-							Some of the insects we target include:<br />
-							• Ants<br />
-							• Spiders<br />
-							• Wasps<br />
-							• Cockroaches<br />
-	                    </p>
-					   <h3>Additional Pest Control</h3>
-					   <p><strong>Mosquito Control Program:</strong> We also can help minimize the level of mosquitoes on your property. Along with the itchy red spots that these annoying little insects can cause, they also are known to carry viruses such as the Zika Virus and West Nile Virus. Treatment includes a thorough application and spray to all prime points of the perimeter and yard including trees, bushes and shrubs; most treatments last 21 days. Keep your friends, family and pets safer and more comfortable when you use Bee Green for all of your pest control services.
-					   </p>
-					   <p><strong>Flea and Tick Program:</strong> Bee Green has a comprehensive flea and tick program as well to keep your pets safe when roaming around outside. Treatments target flea and ticks around the yard. Ticks must carry many diseases that are harmful to people. These treatments are another preventative measure that can be taken to keep your family, friends and pets safer.
-					   </p> <br />
+							• <strong>Treatment #1</strong> – The first treatment takes place in the late-winter to early spring. We apply an horticultural dormant winter oil designed to target pests and their eggs so that your trees can start off the year strong. <br />
+
+							• <strong>Treatments #2-#5</strong> – These four treatments are designed to manage any insects that have the capability of causing damage to your trees and shrubs. Because different pests attack and lay eggs at different times, our applications are designed to target the insects most likely trying to harm your foliage. <br />
+
+							• <strong>Treatment #6</strong> – The final treatment of the year occurs in the late fall and is a deep root feeding to promote root development and improve soil condition. Our fertilizers also include beneficial Mycorrhizae fungus, seaweed extract, humates, and other important organic materials to encourage tree growth. This deep root feeding and direct injection into the root zone helps the tree store nutrients through winter for next growing season.
+	                    </p> <br />
+						<p><strong>Spring Fungicide Application:</strong> Targeted at Apple Scab on Crabapples or Rust on Hawthornes. Other diseases can also be addressed.</p>
+						<p><strong>Emerald Ash Borer treatments:</strong> Emerald Ash Borer is an introduced pest from Asia that left untreated, will kill infected Ash trees native to Indiana. Specialized, selective treatments are available for the most effective control.</p>
+						<p><strong>Specialized Micro-nutrient treatments:</strong> Treatments are sometimes needed for Chlorotic Oaks, Birches and other plants. </p>
+						<p><strong>Specialized Direct Trunk Injections:</strong> Direct injection of material into the trunk of the tree is sometimes needed to avoid drifting into lakes and other sensitive areas or to control specific pests and nutrient deficiencies.</p>
+						<p><strong>Miticides:</strong> These applications are sometimes needed to control severe Spider Mite problems on select plants. </p>
+						<br />
+                        <h3>Tree Diseases and Insects</h3>
+						<p>
+							There are many types insects that can harm the trees. Our tree and shrub care program will help manage pests such as:<br />
+							• Japanese beetles<br />
+							• Lace bugs<br />
+							• Bagworms<br />
+							• Aphids<br />
+							• Sawflies<br />
+                            <br />
+							When you use Bee Green for your landscaping management, you will have a company that takes a scientific approach to plant health care. We are consistently learning the latest methods of tree care and have professionals who know how to take care of a variety of trees such as:<br />
+							• Arborvitaes<br />
+							• Norway spruces<br />
+							• Colorado blue spruce<br />
+							• Maple trees<br />
+							• Hawthornes<br />
+							• Crabapple trees<br />
+						</p><br />
+
 	                </div>
-                    <div className="col-lg-6 col-md-6  col-sm-12">
+	                <div className="col-lg-6 col-md-6  col-sm-12">
 	                    <h3>Get A Free Estimate:</h3>
 	                    <hr />
 	                    <form>
@@ -79,9 +98,9 @@ export default class index extends Component {
 	                            </div>
 	                        </div>
 	                    </form>
-                        <h3>Social Presence</h3>
-                       <a href="#"><i className="fa fa-facebook-square fa-3x color-facebook"></i></a>
-                       <a href="#"><i className="fa fa-twitter-square fa-3x color-twitter"></i></a>
+						<h3>Social Presence</h3>
+					   <a href="#"><i className="fa fa-facebook-square fa-3x color-facebook"></i></a>
+					   <a href="#"><i className="fa fa-twitter-square fa-3x color-twitter"></i></a>
 	                </div>
 
 	            </div>

@@ -5,8 +5,9 @@ import App from './views/App';
 import Home from './views/Home';
 import Contact from './views/Contact';
 import Lawn from './views/Lawn';
-import Other from './views/Other';
+import Tree from './views/Tree';
 import Perimeter from './views/Perimeter';
+import Mosquito from './views/Mosquito';
 import './index.css'
 
 ReactDOM.render(
@@ -15,7 +16,8 @@ ReactDOM.render(
     		<IndexRedirect to="/index.html" />
 			<IndexRoute component={Home}/>
 			<Route path="lawn" component={Lawn} />
-			<Route path="other" component={Other} />
+			<Route path="tree" component={Tree} />
+			<Route path="mosquito" component={Mosquito} />
 			<Route path="perimeter" component={Perimeter} />
 			<Route path="contact" component={Contact} />
     	</Route>

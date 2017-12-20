@@ -15,8 +15,8 @@ export default class index extends Component {
                             <ul className="nav navbar-nav navbar-right">
                                 <MenuChoice target="/" mainText="HOME PAGE"/>
                                 <MenuChoice target="lawn" mainText="LAWN CARE"/>
-                                <MenuChoice target="other" mainText="TREE & SHRUB CARE"/>
-                                <MenuChoice target="perimeter" mainText="MOSQUITO CONTROL"/>
+                                <MenuChoice target="tree" mainText="TREE & SHRUB CARE"/>
+                                <MenuChoice target="mosquito" mainText="MOSQUITO CONTROL"/>
                                 <MenuChoice target="perimeter"  mainText="PERIMETER PEST"/>
                                 <MenuChoice target="contact"  mainText="CONTACT"/>
                             </ul>
