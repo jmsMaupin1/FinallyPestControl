@@ -9,14 +9,16 @@ export class TestimonialSlide extends Component {
                     <div className="slide-custom">
                         <h3>
                             <i className="fa fa-quote-left"></i>
-                            {this.props.text}
+                            {" " + this.props.text + " "}
                             <i className="fa fa-quote-right"></i>
                         </h3>
-                        <h5>
+                        <br/>
+                        <br/>
+                        <h4>
                             <strong className="c-black">
-                                {this.props.author}
+                                - {this.props.author}
                             </strong>
-                        </h5>
+                        </h4>
                     </div>
                 </div>
             </div>

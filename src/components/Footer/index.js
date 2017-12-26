@@ -18,8 +18,10 @@ export default class Footer extends Component {
 
 	render() {
 		return (
-			<div className="plax"
-				 ref={(divElement) => this.divElement = divElement}>
+			<div
+				id="footer"
+				className="plax"
+				ref={(divElement) => this.divElement = divElement}>
 				<div style={{position: "absolute", width: "100%", height: this.state.height, backgroundColor: "rgba(0, 0, 0, .7)"}} />
 				<div className="col-lg-12" style={{paddingTop: "4%", paddingBottom: "2%"}}>
 					<h1>Contact Us!</h1>
