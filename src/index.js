@@ -6,7 +6,6 @@ import Home from './views/Home';
 import Contact from './views/Contact';
 import Lawn from './views/Lawn';
 import Tree from './views/Tree';
-import Perimeter from './views/Perimeter';
 import Mosquito from './views/Mosquito';
 import './index.css'
 
@@ -18,7 +17,6 @@ ReactDOM.render(
 			<Route path="lawn" component={Lawn} />
 			<Route path="tree" component={Tree} />
 			<Route path="mosquito" component={Mosquito} />
-			<Route path="perimeter" component={Perimeter} />
 			<Route path="contact" component={Contact} />
     	</Route>
     </Router>,

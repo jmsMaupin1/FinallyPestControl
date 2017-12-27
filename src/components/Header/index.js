@@ -13,11 +13,10 @@ export default class index extends Component {
                         <Logo />
                         <div className="navbar-collapse collapse" >
                             <ul className="nav navbar-nav navbar-right">
-                                <MenuChoice target="/" mainText="HOME PAGE"/>
-                                <MenuChoice target="lawn" mainText="LAWN CARE"/>
-                                <MenuChoice target="tree" mainText="TREE & SHRUB CARE"/>
-                                <MenuChoice target="mosquito" mainText="MOSQUITO CONTROL"/>
-                                <MenuChoice target="perimeter"  mainText="PERIMETER PEST"/>
+                                <MenuChoice target="/" mainText="HOME"/>
+                                <MenuChoice target="lawn" mainText="ABOUT"/>
+                                <MenuChoice target="tree" mainText="SERVICES"/>
+                                <MenuChoice target="mosquito" mainText="GALLERY"/>
                                 <MenuChoice target="contact"  mainText="CONTACT"/>
                             </ul>
                         </div>
@@ -26,10 +25,10 @@ export default class index extends Component {
                     </div>
                 </div>
                 <SocialLinksBar
-                    email="beegreengrass@gmail.com"
-                    phone="+1-317-660-8794"
+                    email="terebinthtreecare@att.net"
+                    phone="+1-317-507-4197"
                     // country="USA"
-                    facebookURL="https://www.facebook.com/beegreengrass/"
+                    facebookURL="https://www.facebook.com/TerebinthTreeCare/"
                     linkedinURL=""
                     pinterestURL=""
                     youtubeURL=""
