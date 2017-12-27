@@ -28,9 +28,9 @@ export default class index extends Component {
 	                    <p>
 	                        Indianapolis IN, USA
 	                            <br />
-	                        Call: +1-317-507-4197
+	                        Call: +1-317-660-8794
 	                            <br />
-	                        e-mail: terebinthtreecare@att.net
+	                        e-mail: beegreengrass@gmail.com
 	                             <br />
 	                    </p>
 	                    <h3>Social Presence</h3>
