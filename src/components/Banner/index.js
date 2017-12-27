@@ -1,14 +1,22 @@
 import React, { Component } from 'react';
-import ContactForm from '../ContactForm';
-import BgImage from '../../assets/testimonial-background.png';
+import { findDOMNode } from 'react-dom'
 
-var style = {
 
-	parallax: function(background) {
+export default class Footer extends Component {
+	state = {
+		height: 0
+	}
+
+	componentDidMount() {
+    	const height = this._container.clientHeight;
+    	this.setState({ height });
+  	}
+
+	parallax = (background) => {
 		return {
 			overflow: "hidden",
 			paddingBottom: "50px",
-			backgroundImage: "url(" + background + ")",
+			backgroundImage: `url(${background})`,
 			backgroundAttachment: "fixed",
 			backgroundSize: "cover",
 			width: "100%",
@@ -19,41 +27,26 @@ var style = {
 			textShadow: "#000 0px 0px 15px",
 			textAlign: "center"
 		}
-	},
+	}
 
-	divCover: function(height, color, opacity) {
+	divCover = (height, color: [r, g, b], opacity) => {
 		return {
 			position: "absolute",
 			width: "100%",
 			height: height,
-			backgroundColor: `rgba( ${color[0]} , ${color[1]}, ${color[2]}, ${opacity})`
+			backgroundColor: `rgba( ${r} , ${g}, ${b}, ${opacity})`
 		}
 	}
-}
-
-export default class Footer extends Component {
-	constructor(props) {
-	    super(props)
-
-	    this.state = {
-	      height: 0,
-	      backgroundImage: "",
-	    }
-	}
-
-	componentDidMount() {
-    	const height = this.divElement.clientHeight;
-    	const backgroundImage = this.props.image;
-    	this.setState({ height, backgroundImage });
-  	}
 
 	render() {
-		console.log(this.state.backgroundImage)
+		const { image, opacity, color, children } = this.props
+		const { height } = this.state
+
 		return (
-			<div style={style.parallax(this.props.image)}
-				 ref={(divElement) => this.divElement = divElement}>
-				<div style={style.divCover(this.state.height, this.props.color, this.props.opacity)} />
-				{this.props.children}
+			<div style={this.parallax(image)}
+				 ref={r => this._container = r && findDOMNode(r)}>
+				<div style={this.divCover(height, color, opacity)} />
+				{children}
 			</div>
 		);
 	}

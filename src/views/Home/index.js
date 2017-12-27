@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import BannerImage from '../../assets/carousel/carousel-banner.png'
 import Services from '../../components/Services'
 import Banner from '../../components/Banner'
 import BgImage from '../../assets/testimonial-background.png'
