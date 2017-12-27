@@ -41,7 +41,7 @@ export default class index extends Component {
                         <textarea name="message" id="form-message" required="required" className="form-control" rows="4" placeholder="Message"></textarea>
                     </div>
                     <div className="form-group">
-                        <button onClick={this.handleSubmit} type="button" className="col-lg-offset-4 btn btn-warning">Get Quote Today!</button>
+                        <button onClick={this.handleSubmit} type="button" className="btn btn-warning">Get Quote Today!</button>
                     </div>
                 </div>
             </div>

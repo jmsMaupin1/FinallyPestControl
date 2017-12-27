@@ -1,43 +1,53 @@
 import React, { Component } from 'react';
-import Contact from '../ContactForm';
-import Carousel from '../../components/Carousel'
-import {TestimonialSlide} from '../../components/Carousel/sub-components/Slide'
+import { findDOMNode } from 'react-dom'
 
-export default class Banner extends Component {
 
-	renderDesktop() {
-		return (
-			<div style={{width:"100%"}}>
-
-				<div className="col-lg-12" style={{ position: "absolute", paddingTop: "2%" }}>
-					<div className="col-lg-8 col-lg-visible">
-						<Carousel title="Testimonials" classes="testimonials" target="carousel-testimonial">
-							<TestimonialSlide active text="We just started and our lawn is already looking 100% better." author="- Google Review" />
-							<TestimonialSlide text="I've never been happier since we switched to Bee Green. They are very professional and reasonable. Now a lot of my friends are using their services as well." author="- Google Review" />
-							<TestimonialSlide text="...I would highly recommend Colwell Lawn & Landscaping for your lawn maintenance and/or landscaping projects. They are a top notch company." author="- Google Review" />
-						</Carousel>
-					</div>
-					<div className="col-lg-4" >
-						<Contact />
-					</div>
-				</div>
-
-				<img src={this.props.image} alt="bee green banner" className="img-responsive" style={{float: "top"}}/>
-			</div>
-		);
+export default class Footer extends Component {
+	state = {
+		height: 0
 	}
 
-	renderMobile() {
-		return (
-			<Contact />
-		)
+	componentDidMount() {
+    	const height = this._container.clientHeight;
+    	this.setState({ height });
+  	}
+
+	parallax = (background) => {
+		return {
+			overflow: "hidden",
+			paddingBottom: "50px",
+			backgroundImage: `url(${background})`,
+			backgroundAttachment: "fixed",
+			backgroundSize: "cover",
+			width: "100%",
+			display: "block",
+			height: "auto",
+			minHeight: "300px",
+			color: "#fff",
+			textShadow: "#000 0px 0px 15px",
+			textAlign: "center"
+		}
+	}
+
+	divCover = (height, color, opacity) => {
+		return {
+			position: "absolute",
+			width: "100%",
+			height: height,
+			backgroundColor: `rgba( ${color[0]} , ${color[1]}, ${color[2]}, ${opacity})`
+		}
 	}
 
 	render() {
-		var windowSize = document.documentElement.clientWidth;
+		const { image, opacity, color, children } = this.props
+		const { height } = this.state
 
-		return windowSize <= 1199 ? this.renderMobile() : this.renderDesktop();
+		return (
+			<div style={this.parallax(image)}
+				 ref={r => this._container = r && findDOMNode(r)}>
+				<div style={this.divCover(height, color, opacity)} />
+				{children}
+			</div>
+		);
 	}
 }
-
-

@@ -1,34 +1,18 @@
-import React, { Component } from 'react';
-import ContactForm from '../ContactForm';
-import './footer.css'
+import React, { Component } from 'react'
+import BgImage from '../../assets/testimonial-background.png'
+import Banner from '../Banner'
+import ContactForm from '../ContactForm'
 
 export default class Footer extends Component {
-	constructor(props) {
-	    super(props)
-
-	    this.state = {
-	      height: 0
-	    }
-	}
-
-	componentDidMount() {
-    	const height = this.divElement.clientHeight;
-    	this.setState({ height });
-  	}
-
 	render() {
 		return (
-			<div
-				id="footer"
-				className="plax"
-				ref={(divElement) => this.divElement = divElement}>
-				<div style={{position: "absolute", width: "100%", height: this.state.height, backgroundColor: "rgba(0, 0, 0, .7)"}} />
-				<div className="col-lg-12" style={{paddingTop: "4%", paddingBottom: "2%"}}>
-					<h1>Contact Us!</h1>
-				</div>
-				<div>
-					<div className="col-lg-6 col-md-6">
-						<div className="col-lg-11 col-lg-offset-1">
+			<div id="footer">
+				<Banner image={BgImage} color={[0,0,0]} opacity={.7}>
+					<div className="col-lg-12" style={{padding: "4% 0 2% 0"}}>
+						<h1>Contact Us!</h1>
+					</div>
+					<div className="col-lg-7 col-md-7">
+						<div className="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
 							<h1 style={{paddingBottom: "5%"}}>About Us!</h1>
 							<div style={{textAlign: "left"}}>
 								<p>
@@ -50,10 +34,10 @@ export default class Footer extends Component {
 							</div>
 						</div>
 					</div>
-					<div className="col-lg-offset-1 col-lg-4 col-md-4">
+					<div className="col-lg-4 col-md-4">
 						<ContactForm />
 					</div>
-				</div>
+				</Banner>
 			</div>
 		);
 	}
