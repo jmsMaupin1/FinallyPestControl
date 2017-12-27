@@ -29,12 +29,12 @@ export default class Footer extends Component {
 		}
 	}
 
-	divCover = (height, color: [r, g, b], opacity) => {
+	divCover = (height, color, opacity) => {
 		return {
 			position: "absolute",
 			width: "100%",
 			height: height,
-			backgroundColor: `rgba( ${r} , ${g}, ${b}, ${opacity})`
+			backgroundColor: `rgba( ${color[0]} , ${color[1]}, ${color[2]}, ${opacity})`
 		}
 	}
 
