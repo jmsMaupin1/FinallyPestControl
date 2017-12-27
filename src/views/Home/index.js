@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Services from '../../components/Services'
 import Banner from '../../components/Banner'
-import BgImage from '../../assets/testimonial-background.png'
+import BgImage from '../../assets/BannerBG.png'
 import Carousel from '../../components/Carousel'
 import Contact from '../../components/ContactForm'
 import {TestimonialSlide} from '../../components/Carousel/sub-components/Slide'
