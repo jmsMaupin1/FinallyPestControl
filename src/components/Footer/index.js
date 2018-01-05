@@ -32,18 +32,18 @@ export default class Footer extends Component {
 							<h1 style={{paddingBottom: "5%"}}>About Us!</h1>
 							<div style={{textAlign: "left"}}>
 								<p>
-									At Bee Green, we stand by our service. Customer service is our top priority. It is 
-									something we take very serious because if our customers are not satisfied, 
-									we are not satisfied. Our work is guaranteed. We provide FREE service calls 
+									At Bee Green, we stand by our service. Customer service is our top priority. It is
+									something we take very serious because if our customers are not satisfied,
+									we are not satisfied. Our work is guaranteed. We provide FREE service calls
 									between treatments for any reason. Our professional technicians are trained to detect and
-									address any concerns. Since 2001, we have been providing lawn service in Carmel IN and would 
-									love to show what we can do for you. Bee Green has also received the following honors for our 
-									work: 
+									address any concerns. Since 2001, we have been providing lawn service in Carmel IN and would
+									love to show what we can do for you. Bee Green has also received the following honors for our
+									work:
 									<br/>
 									<br/>
 									• Angie’s List Super Service Award 2015
-									<br/> 
-									• Angie’s List Super Service Award 2016 
+									<br/>
+									• Angie’s List Super Service Award 2016
 									<br/>
 									• Haverstick Lawn of the Month – We have won this accolade a few times on a few different properties
 								</p>
